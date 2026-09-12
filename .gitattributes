@@ -1,0 +1,13 @@
+# デフォルト設定：テキストファイルは自動検知し、GitHub上（リポジトリ内）ではLFで保存
+* text=auto
+
+# cmdとbatはWindows専用なので、チェックアウト時に強制的にCRLFにする
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# PowerShellはLFでも動くため、基本はLF（または明示的に指定しない）
+*.ps1 text eol=lf
+
+# ドキュメント
+*.md text eol=lf
+*.txt text eol=lf

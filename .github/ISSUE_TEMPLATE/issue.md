@@ -1,3 +1,14 @@
+---
+name: Issues
+about: Issueテンプレート
+title: [(BUG|Feature|Improve|Docs)] Issue内容
+labels: ''
+assignees:
+    - lepra-sekine
+
+---
+
+
 <!--
 タイトル欄は[(BUG|Feature|Improve|Docs)] Message の形で記載してください。
 

@@ -1,0 +1,2 @@
+# myWindowsCommands
+自作のWindows向けコマンド。cmdやps1ごちゃまぜ。勉強兼ねて作っているので、ご利用は自己責任でお願いします。

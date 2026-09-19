@@ -3,7 +3,7 @@
   "name": "Auto Delete All Posts",
   "version": "1.0.0",
   "description": "【重要】ログイン中のアカウントの投稿を全件削除します。取り消し不可の操作です。導入・実行前に必ず対象アカウントを確認してください。",
-  "permissions": ["storage"],
+  "permissions": [],
   "host_permissions": [
     "https://twitter.com/*",
     "https://x.com/*",

@@ -3,6 +3,18 @@ description: 新しい機能の提案や改善要望
 title: "[Feature]: "
 labels: ["enhancement"]
 body:
+    - type: dropdown
+        attributes:
+            label: 対象カテゴリ
+            description: 提案の対象を選択してください。
+            options:
+                - cmd（コマンド） / bat（MS-DOSコマンド）
+                - ps1（PowerShellコマンド）
+                - Sakura マクロ
+                - その他
+        validations:
+            required: true
+
     - type: textarea
         attributes:
             label: 解決したい課題

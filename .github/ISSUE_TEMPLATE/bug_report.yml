@@ -3,6 +3,18 @@ description: 不具合の報告はこちらからお願いします
 title: "[Bug]: "
 labels: ["bug"]
 body:
+    - type: dropdown
+        attributes:
+            label: 対象カテゴリ
+            description: 提案の対象を選択してください。
+            options:
+                - cmd（コマンド） / bat（MS-DOSコマンド）
+                - ps1（PowerShellコマンド）
+                - Sakura マクロ
+                - その他
+        validations:
+            required: true
+
     - type: textarea
         attributes:
             label: 発生している現象
@@ -13,21 +25,20 @@ body:
     - type: textarea
         attributes:
             label: 再現手順
-            description: 不具合が発生するまでの手順を箇条書きで教えてください。（例：1. 〇〇画面を開く、2. ボタンを押す）
+            description: 不具合が発生するまでの手順を箇条書きで教えてください。
         validations:
             required: true
 
     - type: textarea
         attributes:
             label: 期待される動作
-            description: 本来、システムや画面はどう動くべきだったかを記述してください。
+            description: 本来、どのように動くべきだったかを記述してください。
         validations:
             required: true
 
     - type: input
         attributes:
             label: 実行環境
-            description: OSやブラウザのバージョン、ライブラリのバージョンなどを記入してください（例: macOS Sonoma / Chrome 120）。
+            description: OS、ブラウザ、ツール名、バージョンなどを記入してください。
         validations:
-            required: true
-
+            required: true  

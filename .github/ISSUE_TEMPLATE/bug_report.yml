@@ -1,0 +1,33 @@
+name: バグ報告
+description: 不具合の報告はこちらからお願いします
+title: "[Bug]: "
+labels: ["bug"]
+body:
+    - type: textarea
+        attributes:
+            label: 発生している現象
+            description: 何が起きたか、どのようなエラーが表示されたかを分かりやすく書いてください。
+        validations:
+            required: true
+
+    - type: textarea
+        attributes:
+            label: 再現手順
+            description: 不具合が発生するまでの手順を箇条書きで教えてください。（例：1. 〇〇画面を開く、2. ボタンを押す）
+        validations:
+            required: true
+
+    - type: textarea
+        attributes:
+            label: 期待される動作
+            description: 本来、システムや画面はどう動くべきだったかを記述してください。
+        validations:
+            required: true
+
+    - type: input
+        attributes:
+            label: 実行環境
+            description: OSやブラウザのバージョン、ライブラリのバージョンなどを記入してください（例: macOS Sonoma / Chrome 120）。
+        validations:
+            required: true
+

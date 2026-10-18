@@ -1,0 +1,4 @@
+環境変数に dusk_n_thgiliwt フォルダを追加➕
+`変換元ファイル.txt` を🆕作成する。
+`DuskNThgiliwt -filePath '変換元ファイル.txt'` で実行🔄️。
+変換されたファイルが出力されるので、👀確認する。

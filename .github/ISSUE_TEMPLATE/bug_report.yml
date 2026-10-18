@@ -1,0 +1,49 @@
+name: バグ報告
+description: 不具合の報告はこちらからお願いします
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: 対象カテゴリ
+      description: 不具合が発生した対象カテゴリを選択してください。
+      options:
+        - cmd（コマンド） / bat（MS-DOSコマンド）
+        - ps1（PowerShellコマンド）
+        - Sakura マクロ
+        - その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: symptom
+    attributes:
+      label: 発生している現象
+      description: 何が起きたか、どのようなエラーが表示されたかを分かりやすく書いてください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 不具合が発生するまでの手順を箇条書きで教えてください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待される動作
+      description: 本来、どのように動くべきだったかを記述してください。
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 実行環境
+      description: OS、ブラウザ、ツール名、バージョンなどを記入してください。
+    validations:
+      required: true

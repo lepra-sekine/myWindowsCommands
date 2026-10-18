@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "explorer.excludeGitIgnore": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.wordWrap": "off",
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+        "files.eol": "\n",
+        "[bat,cmd]": {
+            "files.eol": "\r\n",
+            "files.encoding": "utf8bom"
+        },
+        "editor.formatOnSave": true
+    }
+}

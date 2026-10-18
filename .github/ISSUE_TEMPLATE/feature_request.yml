@@ -2,7 +2,6 @@ name: 💡 機能リクエスト
 description: 新しい機能の提案や改善要望
 title: "[Feature]: "
 labels: ["enhancement"]
-type: feature_request
 body:
   - type: dropdown
     id: category

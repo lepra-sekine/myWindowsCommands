@@ -2,14 +2,12 @@ name: バグ報告
 description: 不具合の報告はこちらからお願いします
 title: "[Bug]: "
 labels: ["bug"]
-type: bug
 body:
   - type: dropdown
     id: category
     attributes:
       label: 対象カテゴリ
-
-      description: 提案の対象を選択してください。
+      description: 不具合が発生した対象カテゴリを選択してください。
       options:
         - cmd（コマンド） / bat（MS-DOSコマンド）
         - ps1（PowerShellコマンド）

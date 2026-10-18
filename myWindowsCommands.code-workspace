@@ -13,6 +13,10 @@
         "files.insertFinalNewline": true,
         "files.trimTrailingWhitespace": true,
         "files.eol": "\n",
+        "[bat,cmd]": {
+            "files.eol": "\r\n",
+            "files.encoding": "utf8bom"
+        },
         "editor.formatOnSave": true
     }
 }
